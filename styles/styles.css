@@ -32,18 +32,17 @@ h4 {
   color: darkslategray;
   text-align: left;
 }
-a {
+h4 a {
+  text-decoration: none;
   color: darkcyan;
 }
-a:hover {
-  color: darkturquoise;
+h4 a:hover {
+    color: darkturquoise;
 }
 img {
-  border-style: solid;
-  border-width: 2px;
   max-width: 100%;
 }
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -52,30 +51,74 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
-li {
+ nav li {
     float: left;
 }
-li a {
+nav li a {
     display: block;
     color: floralwhite;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover {
+nav li a:hover {
     color: darkturquoise;
+}
+nav li:nth-child(even) {
+  background-color: black;
+}
+ul {
+list-style-type: none;
+}
+section li:nth-child(odd) {
+  color: darkseagreen;
+}
+section li:nth-child(even) {
+  color: dodgerblue;
 }
 footer a {
   text-decoration: none;
   font-family: Montserrat;
+  color: darkcyan;
+  }
+footer a:hover {
+    color: darkturquoise;
 }
 .flex-container {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .flex-container div {
   color: black;
   padding: 1rem;
   width: 30%;
+}
+.button {
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fade {
+  transition-property: opacity;
+  transition-duration: 2s;
+  opacity: 0.5;
+}
+.fade:hover {
+  opacity: 1;
+}
+#button-color {
+  transition-property: background-color;
+  background-color: darkcyan;
+  transition-duration: 1s;
+}
+#button-color:hover {
+  background-color: darkturquoise;
 }
