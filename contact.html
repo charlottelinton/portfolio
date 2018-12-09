@@ -12,6 +12,9 @@
     </head>
 
     <body>
+      <header>
+        <h1>CONTACT CHARLOTTE LINTON</h1>
+      </header>
       <nav>
         <header>
           <h3 hidden>Look Around</h3>
@@ -31,10 +34,34 @@
       </nav>
 
       <article>
-        <header><h3 hidden>Contact Me</h3></header>
-        <p><img src="https://i.gifer.com/DKDh.gif"
-            alt="Uhura on comms"/>
-          </p>
+        <header><h2>GET IN TOUCH</h2></header>
+        <p>Please use the form below to talk to me about potential projects:</p>
+        <div class="form-container">
+          <form action=“#” method=“get”>
+              <label>Name:
+                <input type="text" name="name" required>
+              </label>
+              <label>Email Address:
+                <input type="email" name="email" required>
+              </label>
+              <label>Phone Number:
+                <input type="tel" name="telephone">
+              </label>
+              <label>Hogwarts House Affiliation:
+                <select name="house">
+                  <option value="Griffindor">Griffindor</option>
+                  <option value="Hufflepuff">Hufflepuff</option>
+                  <option value="Ravenclaw">Ravenclaw</option>
+                  <option value="Slytherin">Slytherin</option>
+                </select>
+              </label>
+              <label>Message:</label>
+                <textarea name="message" rows="10">
+                </textarea>
+              <input type="submit" value="Submit" name="submit">
+          </form>
+        </div>
+
       </article>
       <hr>
       <footer>
