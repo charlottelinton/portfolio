@@ -2,11 +2,12 @@
   box-sizing: border-box;
 }
 body {
-  background-color: floralwhite;
+  background-color: white;
 }
 p {
   font-family: 'Lora', serif;
   font-size: 16px;
+  color: black;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -34,10 +35,11 @@ h4 {
 }
 h4 a {
   text-decoration: none;
-  color: darkcyan;
+  color: darkslategray;
 }
 h4 a:hover {
-    color: darkturquoise;
+    color: #008080;
+    text-decoration: underline;
 }
 img {
   max-width: 100%;
@@ -62,7 +64,7 @@ nav li a {
     text-decoration: none;
 }
 nav li a:hover {
-    color: darkturquoise;
+    text-decoration: underline;
 }
 nav li:nth-child(even) {
   background-color: black;
@@ -79,10 +81,11 @@ section li:nth-child(even) {
 footer a {
   text-decoration: none;
   font-family: Montserrat;
-  color: darkcyan;
+  color: black;
   }
 footer a:hover {
-    color: darkturquoise;
+    color: #008080;
+    text-decoration: underline;
 }
 .flex-container {
   display: flex;
